@@ -1,3 +1,2 @@
-m=int(input())
-n=int(input())
+m,n=list(map(int,input().split()))
 print(m+n)
