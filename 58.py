@@ -1,8 +1,7 @@
 n,k=map(int,input().split())
 l=list(map(int,input().split()))
-for i in l:
-    if(i==k):
-        print("yes")
-    else:
-        print("no")
+if k in l:
+    print("yes")
+else:
+    print("no")
 
