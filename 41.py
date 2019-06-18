@@ -1,4 +1,4 @@
-ch=input()
-n=int(input())
-for i in range (0,n):
+ch,n=input().split()
+n=int(n)
+for i in range(n):
   print(ch)
